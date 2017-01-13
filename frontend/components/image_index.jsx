@@ -26,8 +26,8 @@ class ImageIndex extends React.Component {
     e.preventDefault();
     cloudinary.openUploadWidget(
       {
-        cloud_name: 'dxpvdn7tw',
-        upload_preset: 'lqvi4si1',
+        cloud_name: 'XXXXXXX',
+        upload_preset: 'XXXXXXX',
         theme: 'minimal',
       },
       (errors, imageInfo) => {
